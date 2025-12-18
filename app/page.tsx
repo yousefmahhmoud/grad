@@ -22,17 +22,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center animate-fade-in-up">
-          <Link href="/" className="flex items-center gap-1 group">
+          <Link href="/" className="flex items-center gap-.5 group">
             <div className="relative w-12 h-12 transition-transform duration-300 group-hover:scale-110">
-              <Image 
-                src="/logo.png" 
-                alt="حِسّ Logo" 
-                width={50} 
-                height={50}
-                className="object-contain drop-shadow-md"
-              />
+              <Image src="/logo.png" alt="حِسّ Logo" width={50} height={50} className="object-contain drop-shadow-md" />
             </div>
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-[#FFB347] to-[#FFA726] bg-clip-text text-transparent transition-all duration-300 group-hover:from-[#FF9800] group-hover:to-[#FF6F00] group-hover:scale-105 drop-shadow-[0_2px_8px_rgba(255,179,71,0.4)]">حِسّ</h1>
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-[#FFB347] to-[#FFA726] bg-clip-text text-transparent transition-all duration-300 group-hover:from-[#FF9800] group-hover:to-[#FF6F00] group-hover:scale-105 drop-shadow-[0_2px_8px_rgba(255,179,71,0.4)]">
+              حِسّ
+            </h1>
           </Link>
           <div className="flex gap-6 items-center">
             <Link href="/hero" className="text-accent hover:text-primary transition-colors">
